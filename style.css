@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&family=Ubuntu+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(225, 236, 240);
+  font-family: "Ubuntu Mono", monospace;
+}
+.header {
+  background-color: gold;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.header h1 {
+  color: white;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgb(80, 79, 79);
+  font-family: "Averia Libre", cursive;
+}
+.area {
+  background-color: white;
+  position: relative;
+  padding: 2rem;
+  width: 50%;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgb(56, 53, 53);
+}
+.area input,
+textarea {
+  border: none;
+  display: block;
+  outline: none;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+input,
+textarea[placeholder] {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1rem;
+  resize: none;
+}
+input {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.add-btn {
+  position: absolute;
+  bottom: -10%;
+  right: 10%;
+  padding: 0.7rem;
+  background-color: gold;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  text-shadow: 1px 1px 3px rgb(80, 79, 79);
+}
+.note {
+  max-width: 30%;
+  position: relative;
+  margin: 1rem;
+  padding: 0.8rem;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgb(56, 53, 53);
+  border-radius: 10px;
+  float: left;
+}
+.note h2,
+p {
+  margin: 1rem 0.3rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.delete-btn {
+  margin-top: 1rem;
+  border: none;
+  color: gold;
+  background-color: transparent;
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline: none;
+}
